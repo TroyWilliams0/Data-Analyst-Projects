@@ -70,7 +70,8 @@ SELECT `Year`, Model, `Condition`, MPG
 FROM honda_sell_data
 WHERE MPG = '';
 
--- Updating Drivetrain where "Front-wheel Drive" will be fixed to say "FWD" 
+-- Updating Drivetrain where "Front-wheel Drive" will be fixed to say "FWD"
+-- "Four-wheel Drive" to say  "4WD" 
 -- And "All-wheel Drive" will be "AWD"
 
 SELECT Drivetrain 
@@ -86,11 +87,21 @@ WHERE Drivetrain = "Front-wheel Drive"; -- Drivetrain that was "Front-wheel Driv
 
 SELECT *
 FROM honda_sell_data
+WHERE Drivetrain = "Four-wheel Drive";
+
+UPDATE honda_sell_data
+SET Drivetrain = "4WD"
+WHERE Drivetrain = "Four-wheel Drive"; -- "Drivetrain that was "Four-wheel Drive" is now "4WD"
+
+
+
+SELECT *
+FROM honda_sell_data
 WHERE Drivetrain = "All-wheel Drive";
 
 UPDATE honda_sell_data
 SET Drivetrain = "AWD"
-WHERE Drivetrain = "All-wheel Drive";
+WHERE Drivetrain = "All-wheel Drive"; -- "All-wheel Drive" is now "AWD"
 
 -- Updating rest of cars MPG
 
@@ -126,6 +137,8 @@ UPDATE honda_sell_data
 SET MPG = "40-34"
 WHERE Model = "CR-V Hybrid Sport Touring";
 
+
+
 SELECT *
 FROM honda_sell_data
 WHERE Model = "CR-V EX-L" AND `Year` = "2023";
@@ -159,8 +172,8 @@ FROM honda_sell_data
 WHERE MPG LIKE '%â€“%';
 
 UPDATE honda_sell_data
-SET MPG = "19-26"
-WHERE MPG = '0â€“26'; -- Changed every MPG value with â€ to a normal "-"
+SET MPG = "50-45"
+WHERE MPG = '50â€“45'; -- Changed every MPG value with â€ to a normal "-"
 
 SELECT *
 FROM honda_sell_data
@@ -170,6 +183,43 @@ UPDATE honda_sell_data
 SET Mileage = "N/A"
 WHERE Mileage = 'â€“'; -- Fixing Mileage to say N/A instead of â€“
 
+-- Creating NEW Table for visualizations later on
+
+CREATE TABLE `honda_sell_data2` (
+  `Year` int DEFAULT NULL,
+  `Make` text,
+  `Model` text,
+  `Condition` text,
+  `Price` text,
+  `Consumer_Rating` double DEFAULT NULL,
+  `Consumer_Review_#` int DEFAULT NULL,
+  `Exterior_Color` text,
+  `Interior_Color` text,
+  `Drivetrain` text,
+  `MPG` text,
+  `Fuel_Type` text,
+  `Transmission` text,
+  `Engine` text,
+  `VIN` text,
+  `Stock_#` text,
+  `Mileage` text,
+  `Comfort_Rating` double DEFAULT NULL,
+  `Interior_Design_Rating` double DEFAULT NULL,
+  `Performance_Rating` double DEFAULT NULL,
+  `Value_For_Money_Rating` double DEFAULT NULL,
+  `Exterior_Styling_Rating` double DEFAULT NULL,
+  `Reliability_Rating` double DEFAULT NULL,
+  `State` text,
+  `Seller_Type` text
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+INSERT INTO honda_sell_data2
+SELECT *
+FROM honda_sell_data;
+
+SELECT *
+FROM honda_sell_data2;
 
 -- Replacing the "$" and "," in the Price for later exploration
 
@@ -186,6 +236,114 @@ FROM honda_sell_data;
 UPDATE honda_sell_data
 SET Price = REPLACE(Price,',','');
 
+-- Cleaning up Transmission column
+
+SELECT `Transmission`
+FROM honda_sell_data2
+WHERE `Transmission` = "9-SPEED A/T";
+
+UPDATE honda_sell_data2 
+SET `Transmission` = "9-Speed Automatic"
+WHERE `Transmission` = "9-SPEED A/T";
+
+SELECT `Transmission`
+FROM honda_sell_data2
+WHERE `Transmission` = "electronic continuously variable";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "ECVT"
+WHERE `Transmission` = "electronic continuously variable"; 
+
+UPDATE honda_sell_data2
+SET `Transmission` = "CVA"
+WHERE `Transmission` = "continuously variable automatic";
+
+UPDATE honda_sell_data2 
+SET `Transmission` = "10-Speed Automatic"
+WHERE `Transmission` = "10-speed Automatic";
+
+UPDATE honda_sell_data2
+SET `Transmission` = '%%-speed Automatic'
+WHERE `Transmission` = '%%-Speed Automatic';
+
+UPDATE honda_sell_data2 
+SET `Transmission` = "4-Speed Automatic"
+WHERE `Transmission` = "4-SPEED A/T";
+
+UPDATE honda_sell_data2 
+SET `Transmission` = "5-Speed Automatic"
+WHERE `Transmission` = "5 Speed Automatic";
+
+UPDATE honda_sell_data2 
+SET `Transmission` = "6-Speed Manual"
+WHERE `Transmission` = "6-SPEED M/T";
+
+UPDATE honda_sell_data2 
+SET `Transmission` = "9-Speed Automatic"
+WHERE `Transmission` = "9 Speed";
+
+UPDATE honda_sell_data2 
+SET `Transmission` = "1-Speed CVT with Overdrive"
+WHERE `Transmission` = "1-Speed CVT w/OD";
+
+
+SELECT *
+FROM honda_sell_data2
+WHERE `Transmission` = "9-Speed";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "9-Speed Automatic"
+WHERE `Transmission` = "9-Speed";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "5-Speed Manual"
+WHERE `Transmission` = "5-SPEED M/T";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "N/A"
+WHERE `Transmission` = "NOT SPECIFIED";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "Automatic"
+WHERE `Transmission` = "AUTOMATIC";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "CVT"
+WHERE `Transmission` = "continuously variable";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "CVT with Sport Mode"
+WHERE `Transmission` = "continuously variable w/sport mode";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "CVT"
+WHERE `Transmission` = "Continuously Variable Transmission";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "Manual CVT"
+WHERE `Transmission` = "continuously variable (m cvt)";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "CVT"
+WHERE `Transmission` = "continuously variable (ll cvt)";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "CVT"
+WHERE `Transmission` = "continuously variable (cvt)";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "6-Speed Automatic"
+WHERE `Transmission` = "Automatic, 6-Spd";
+
+UPDATE honda_sell_data2
+SET `Transmission` = "5-Speed Automatic"
+WHERE `Transmission` = "Automatic, 5-Spd";
+
+SELECT *
+FROM honda_sell_data2;
+
+SELECT *
+FROM honda_sell_data2;
 
 
 -- I want a NEW car for $30,000 or less, Specifically a Civic or an Accord
@@ -381,8 +539,4 @@ WHERE Exterior_color LIKE '%Aegean blue%'
 GROUP BY Exterior_Color
 ORDER BY avg(Price) DESC; -- Cars with Aegean Blue on Average cost $26,995
 						  -- Cars with Aegean Blue Metallic on Average cost $26,268
-                          
-
-
-
-
+						
