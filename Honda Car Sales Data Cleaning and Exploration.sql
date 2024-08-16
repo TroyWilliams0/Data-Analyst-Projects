@@ -93,6 +93,14 @@ UPDATE honda_sell_data
 SET Drivetrain = "4WD"
 WHERE Drivetrain = "Four-wheel Drive"; -- "Drivetrain that was "Four-wheel Drive" is now "4WD"
 
+SELECT *
+FROM honda_sell_data
+WHERE Drivetrain = "Rear-wheel Drive";
+
+
+UPDATE honda_sell_data
+SET Drivetrain = "RWD"
+WHERE Drivetrain = "Rear-wheel Drive";
 
 
 SELECT *
@@ -342,8 +350,15 @@ WHERE `Transmission` = "Automatic, 5-Spd";
 SELECT *
 FROM honda_sell_data2;
 
+-- "Fixing MO-22" in the state column to "MO"
+
 SELECT *
-FROM honda_sell_data2;
+FROM honda_sell_data2
+WHERE `State` = "MO-22";
+
+UPDATE honda_sell_data2
+SET `State` = "MO"
+WHERE `State` = "MO-22";
 
 
 -- I want a NEW car for $30,000 or less, Specifically a Civic or an Accord
