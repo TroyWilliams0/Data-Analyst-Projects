@@ -71,7 +71,7 @@ FROM honda_sell_data
 WHERE MPG = '';
 
 -- Updating Drivetrain where "Front-wheel Drive" will be fixed to say "FWD"
--- "Four-wheel Drive" to say  "4WD" 
+-- "Four-wheel Drive" to say  "4WD" , "Rear-wheel Drive" will be "RWD"
 -- And "All-wheel Drive" will be "AWD"
 
 SELECT Drivetrain 
@@ -94,11 +94,11 @@ SET Drivetrain = "4WD"
 WHERE Drivetrain = "Four-wheel Drive"; -- "Drivetrain that was "Four-wheel Drive" is now "4WD"
 
 SELECT *
-FROM honda_sell_data
+FROM honda_sell_data2
 WHERE Drivetrain = "Rear-wheel Drive";
 
 
-UPDATE honda_sell_data
+UPDATE honda_sell_data2
 SET Drivetrain = "RWD"
 WHERE Drivetrain = "Rear-wheel Drive";
 
@@ -244,7 +244,7 @@ FROM honda_sell_data;
 UPDATE honda_sell_data
 SET Price = REPLACE(Price,',','');
 
--- Cleaning up Transmission column
+-- Cleaning up Transmission column in new table for more accurate visualizations
 
 SELECT `Transmission`
 FROM honda_sell_data2
@@ -347,8 +347,25 @@ UPDATE honda_sell_data2
 SET `Transmission` = "5-Speed Automatic"
 WHERE `Transmission` = "Automatic, 5-Spd";
 
+-- Cleaning and Deleting rows I don't need
+
 SELECT *
-FROM honda_sell_data2;
+FROM honda_sell_data2
+WHERE `State` = 'Glens';
+
+UPDATE honda_sell_data2
+SET `State` = "NY"
+WHERE `State` = "Glens";
+
+DELETE FROM honda_sell_data2
+WHERE `State` = "Route";
+
+DELETE FROM honda_sell_data2
+WHERE `State` = '';
+
+SELECT `Seller_Type`
+FROM honda_sell_data2
+WHERE `Seller_Type` = '';
 
 -- "Fixing MO-22" in the state column to "MO"
 
@@ -359,6 +376,21 @@ WHERE `State` = "MO-22";
 UPDATE honda_sell_data2
 SET `State` = "MO"
 WHERE `State` = "MO-22";
+
+SELECT *
+FROM honda_sell_data2
+WHERE `Exterior_Color` = "Mar";
+
+DELETE FROM honda_sell_data2
+WHERE `Exterior_Color` = "Mar";
+
+SELECT *
+FROM honda_sell_data2
+WHERE `Exterior_Color` = "01";
+
+DELETE FROM honda_sell_data2
+WHERE `Exterior_Color` = "01";
+
 
 
 -- I want a NEW car for $30,000 or less, Specifically a Civic or an Accord
