@@ -6,11 +6,11 @@ I have Projects showcasing my knowledge and skills with SQL, Excel, Power BI, Ta
 <h2>Projects</h2>
 <h3>SQL</h3> 
 <p>
-  <li><b><a href="https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Honda%20Car%20Sales%20Data%20Cleaning%20and%20Exploration.sql" > Honda Car Listings Cleaning and Exploration </a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/SQL%20Walmart%20Sales%20Data%20Analysis%20Project.sql"> Walmart Sales in India Cleaning and Exploration</a></b></li>
-  <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/World%20Layoffs%20Data%20Cleaning%20Project.sql"> Company layoffs Cleaning</a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/World%20Layoffs%20Data%20Exploration%20Project.sql"> Company layoffs Exploration</a></b></li>
-  <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Chattanooga%20Spending%20Cleaning%20and%20Exploration%20Project.sql" > Chattanooga Spending from 2014 - 2016 </a></b></li>
+  <li><b><a href="https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Honda%20Car%20Sales%20Data%20Cleaning%20and%20Exploration.sql" target="_blank" rel="noopener noreferrer" > Honda Car Listings Cleaning and Exploration </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/SQL%20Walmart%20Sales%20Data%20Analysis%20Project.sql" target="_blank" rel="noopener noreferrer" > Walmart Sales in India Cleaning and Exploration</a></b></li>
+  <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/World%20Layoffs%20Data%20Cleaning%20Project.sql" target="_blank" rel="noopener noreferrer" > Company layoffs Cleaning</a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/World%20Layoffs%20Data%20Exploration%20Project.sql" target="_blank" rel="noopener noreferrer" > Company layoffs Exploration</a></b></li>
+  <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Chattanooga%20Spending%20Cleaning%20and%20Exploration%20Project.sql" target="_blank" rel="noopener noreferrer" > Chattanooga Spending from 2014 - 2016 </a></b></li>
 </p>
 <h3>Excel</h3> 
 <p>
@@ -19,24 +19,24 @@ I have Projects showcasing my knowledge and skills with SQL, Excel, Power BI, Ta
 <h3>Tableau</h3> 
 <p>
   <li><b><a href = "https://public.tableau.com/app/profile/troy.williams6733/vizzes"> Tableau Profile </a></b></li>
-  <li><b><a href = "https://public.tableau.com/app/profile/troy.williams6733/viz/2016SeattleAirbnbListingsProject/Dashboard1" > 2016 Seattle, Washington Airbnb Listings Visualization</a></b></li>
-  <li><b><a href = "https://public.tableau.com/app/profile/troy.williams6733/viz/Washington2024AirbnbProject/Dashboard1" > 2024 Seattle, Washington Airbnb Listings Visualization</a></b></li>
-  <li><b><a href = "https://public.tableau.com/app/profile/troy.williams6733/viz/ChattanoogaOVERALLSpendingfrom2014-2016/Dashboard1?publish=yes" > Chattanooga Spending from 2014 - 2016 Visualization </a></b></li>
+  <li><b><a href = "https://public.tableau.com/app/profile/troy.williams6733/viz/2016SeattleAirbnbListingsProject/Dashboard1" target="_blank" rel="noopener noreferrer" > 2016 Seattle, Washington Airbnb Listings Visualization</a></b></li>
+  <li><b><a href = "https://public.tableau.com/app/profile/troy.williams6733/viz/Washington2024AirbnbProject/Dashboard1" target="_blank" rel="noopener noreferrer" > 2024 Seattle, Washington Airbnb Listings Visualization</a></b></li>
+  <li><b><a href = "https://public.tableau.com/app/profile/troy.williams6733/viz/ChattanoogaOVERALLSpendingfrom2014-2016/Dashboard1?publish=yes" target="_blank" rel="noopener noreferrer" > Chattanooga Spending from 2014 - 2016 Visualization </a></b></li>
 </p>
 <h3>Power BI</h3> 
 <p>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Honda%20Car%20Listings%20Dashboard.pdf"> Honda Car Listings Dashboard </a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Data%20Professional%20Survey%20Breakdown%20Project.pdf"> Data Professional Survey Dashboard </a></b></li>
-  <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Detroit%20Red%20Wings%20NHL%20Season%20Overview.pdf"> Detroit Red Wings Season Overview Dashboard </a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20NHL%2023-24%20Season%20Overview%20Project.pdf"> NHL 23-24 Season Overview Dashboard </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Honda%20Car%20Listings%20Dashboard.pdf" target="_blank" rel="noopener noreferrer" > Honda Car Listings Dashboard </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Data%20Professional%20Survey%20Breakdown%20Project.pdf" target="_blank" rel="noopener noreferrer" > Data Professional Survey Dashboard </a></b></li>
+  <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Detroit%20Red%20Wings%20NHL%20Season%20Overview.pdf" target="_blank" rel="noopener noreferrer" > Detroit Red Wings Season Overview Dashboard </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20NHL%2023-24%20Season%20Overview%20Project.pdf" target="_blank" rel="noopener noreferrer" > NHL 23-24 Season Overview Dashboard </a></b></li>
 </p>
 <h3>Python</h3>
 <p>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Python%20Project%20Building%20a%20BMI%20Calculator%20Project.ipynb"> Building a BMI Calculator</a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Python%20Project%20Building%20an%20Automated%20File%20Sorter%20in%20File%20Explorer%20Project.ipynb"> Building an automated file sorter</a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Python%20Project%20Scraping%20Data%20From%20A%20Real%20Website%20Project.ipynb"> Scraping Data From Wikipedia </a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Python%20Project%20Automating%20Crypto%20Website%20API%20Pull%20Using%20Python.ipynb" > Automating Crypto Website API Pull </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Python%20Project%20Building%20a%20BMI%20Calculator%20Project.ipynb" target="_blank" rel="noopener noreferrer" > Building a BMI Calculator</a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Python%20Project%20Building%20an%20Automated%20File%20Sorter%20in%20File%20Explorer%20Project.ipynb" target="_blank" rel="noopener noreferrer" > Building an automated file sorter</a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Python%20Project%20Scraping%20Data%20From%20A%20Real%20Website%20Project.ipynb" target="_blank" rel="noopener noreferrer" > Scraping Data From Wikipedia </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Python%20Project%20Automating%20Crypto%20Website%20API%20Pull%20Using%20Python.ipynb" target="_blank" rel="noopener noreferrer" > Automating Crypto Website API Pull </a></b></li>
 </p>
 <h2><b>Certifications</b></h2>
 <b>Alex Freberg's Data Analyst Bootcamp</b> 
-<p> A comprehensive 12 week bootcamp covering beginner, intermediate, and advanced SQL, Excel, Tableau, Power BI, and Python. <b> <a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Data%20Analytics%20Bootcamp%20Certification%20of%20Completion.jpg" >Bootcamp Certification</a> </p> </b>
+<p> A comprehensive 12 week bootcamp covering beginner, intermediate, and advanced SQL, Excel, Tableau, Power BI, and Python. <b> <a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Data%20Analytics%20Bootcamp%20Certification%20of%20Completion.jpg" target="_blank" rel="noopener noreferrer" >Bootcamp Certification</a> </p> </b>
