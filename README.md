@@ -39,4 +39,4 @@ I have Projects showcasing my knowledge and skills with SQL, Excel, Power BI, Ta
 </p>
 <h2><b>Certifications</b></h2>
 <b>Alex Freberg's Data Analyst Bootcamp</b> 
-<p> A comprehensive 12 week bootcamp covering the beginner, intermediate, and advanced SQL, Excel, Tableau, Power BI, and Python. <b> <a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Data%20Analytics%20Bootcamp%20Certification%20of%20Completion.jpg" >Bootcamp Certification</a> </p> </b>
+<p> A comprehensive 12 week bootcamp covering beginner, intermediate, and advanced SQL, Excel, Tableau, Power BI, and Python. <b> <a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Data%20Analytics%20Bootcamp%20Certification%20of%20Completion.jpg" >Bootcamp Certification</a> </p> </b>
