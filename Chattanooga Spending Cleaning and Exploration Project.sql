@@ -70,6 +70,15 @@ CREATE TABLE `spending2` (
   `row_num` INT
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+
+-- Using CTE to create a row_num column to detect duplicates
+
+SELECT *, ROW_NUMBER() OVER(PARTITION BY fiscal_year, fiscal_year_period, 
+fund, service, department, program, expense_category, invoice_id, invoice_date,
+amount, `description`, vendor_id, vendor_name) as row_num
+FROM spendingfr;
+
+
 INSERT INTO spending2
 SELECT *, ROW_NUMBER() OVER(PARTITION BY fiscal_year, fiscal_year_period, 
 fund, service, department, program, expense_category, invoice_id, invoice_date,
@@ -91,12 +100,6 @@ WHERE row_num > 1;
 SELECT *
 FROM spending2;
 
--- Using CTE to create a row_num column to detect duplicates
-
-SELECT *, ROW_NUMBER() OVER(PARTITION BY fiscal_year, fiscal_year_period, 
-fund, service, department, program, expense_category, invoice_id, invoice_date,
-amount, `description`, vendor_id, vendor_name) as row_num
-FROM spendingfr;
 
 -- dropping row_num column since it isn't needed anymore
 
