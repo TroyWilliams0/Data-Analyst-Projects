@@ -10,7 +10,6 @@ I have Projects showcasing my knowledge and skills with SQL, Excel, Power BI, Ta
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/SQL%20Walmart%20Sales%20Data%20Analysis%20Project.sql"> Walmart Sales in India Cleaning and Exploration</a></b></li>
   <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/World%20Layoffs%20Data%20Cleaning%20Project.sql"> Company layoffs Cleaning</a></b></li>
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/World%20Layoffs%20Data%20Exploration%20Project.sql"> Company layoffs Exploration</a></b></li>
-  <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Chattanooga%20Spending%20Cleaning%20and%20Exploration%20Project.sql"> Chattanooga Spending from 2014 - 2016 </a></b></li>
 </p>
 <h3>Excel</h3> 
 <p>
