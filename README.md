@@ -25,8 +25,9 @@ I have Projects showcasing my knowledge and skills with SQL, Excel, Power BI, Ta
 <p>
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Honda%20Car%20Listings%20Dashboard.pdf" target="_blank"> Honda Car Listings Dashboard </a></b></li>
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Data%20Professional%20Survey%20Breakdown%20Project.pdf"> Data Professional Survey Dashboard </a></b></li>
-  <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Detroit%20Red%20Wings%20NHL%20Season%20Overview.pdf"> Detroit Red Wings Season Overview Dashboard </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Detroit%20Red%20Wings%20NHL%20Season%20Overview.pdf"> Detroit Red Wings Season Overview Dashboard </a></b></li>
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20NHL%2023-24%20Season%20Overview%20Project.pdf" > NHL 23-24 Season Overview Dashboard </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Chattanooga%20Vehicle%20Incidents%20Visual.pdf" > Chattanooga Vehicle Incidents Dashboard </a></b></li>
 </p>
 <h3>Python</h3>
 <p>
