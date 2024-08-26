@@ -358,7 +358,7 @@ FROM spending2
 GROUP BY fiscal_year_period
 ORDER BY amount DESC;
 
--- The top 5 total amount spent for each fiscal year period 
+-- The top 5 average amount spent for each fiscal year period 
 -- 6th fiscal period has the highest average amount spent at $3,264
 -- 7th fiscal period has the 2nd highest average amount spent at $2,950
 -- 5th fiscal period has the 3rd highest average amount spent at $2,915
