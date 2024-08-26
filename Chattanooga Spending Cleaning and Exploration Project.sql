@@ -310,7 +310,7 @@ FROM spending2;
 SELECT COUNT(DISTINCT vendor_name)
 FROM spending2;
 
-
+-- There are 5,082 unique vendors in the vendor_name column
 
 -------------------------------------------------------------------------------------
 
