@@ -345,7 +345,7 @@ LIMIT 5;
 -- 2. is the 4th period with $171,025,178 total spent
 -- 3. is the 5th period with $143,901,597 total spent
 -- 4. is the 9th period with $137,043,480 total spent
--- 5th is the 3rd period with $134,450,085 total spent
+-- 5 is the 3rd period with $134,450,085 total spent
 
 -- The middle periods tend to have the most spent with 4, 5, and 6 all in the top 5
 
