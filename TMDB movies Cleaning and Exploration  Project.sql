@@ -482,11 +482,12 @@ FROM movies3
 ORDER BY popularity DESC
 LIMIT 5; 			
 		    
-            -- Blue Beetle is the most popular with a rating of 2,994 and a runtime of 128
-		    -- Gran Turismo is 2nd with a 2,681 rating and a runtime of 135
-			-- The Nun II is 3rd with a popularity rating of 1,693 with a runtime of 110
-			-- Meg 2: The Trench is 4th with a popularity rating of 1,567 with a runtime of 116
-			-- Retribution is last with a rating of 1,547 and a runtime of 91
+            
+		-- Blue Beetle is the most popular with a rating of 2,994 and a runtime of 128
+		-- Gran Turismo is 2nd with a 2,681 rating and a runtime of 135
+		-- The Nun II is 3rd with a popularity rating of 1,693 with a runtime of 110
+		-- Meg 2: The Trench is 4th with a popularity rating of 1,567 with a runtime of 116
+		-- Retribution is last with a rating of 1,547 and a runtime of 91
 
 SELECT *
 FROM movies3;
@@ -500,7 +501,8 @@ FROM movies3
 WHERE genres LIKE 'Action%'
 ORDER BY revenue DESC;
 				
-                -- Avatar is 1 making $2,923,706,026 of revenue in the action genre
+                
+				-- Avatar is 1 making $2,923,706,026 of revenue in the action genre
 				-- Spider-Man: No Way Home is 2 making $1,921,847,111 of revenue in action
 				-- Jurassic World is 3 $1,671,537,444 of revenue in action
 				-- Furious 7 is 4 making $1,515,341,399 of revenue in action 
@@ -512,7 +514,7 @@ FROM movies3
 WHERE genres LIKE 'Adventure%'
 ORDER BY revenue DESC;
 				
-                -- Avengers: Endgame has made the most revenue in the Adventure genre with $2,800,000,000 made
+                		-- Avengers: Endgame has made the most revenue in the Adventure genre with $2,800,000,000 made
 				-- Star Wars: The Force Awakens made the 2nd most revenue in the genre with $2,068,223,624 made
 				-- Avengers: Infinity War made the 3rd most revenue in the genre with $2,052,415,039 made
 				-- The Lion King made the 4th most revenue in the genre with $1,663,075,401 made
@@ -523,7 +525,7 @@ FROM movies3
 WHERE genres LIKE 'Fantasy%'
 ORDER BY revenue DESC; 		
 				
-                -- Harry Potter and the Deathly Hallows: Part 2 made the most revenue in the Fantasy genre making $1,341,511,219
+               		 	-- Harry Potter and the Deathly Hallows: Part 2 made the most revenue in the Fantasy genre making $1,341,511,219
 				-- The Hobbit: The Desolation of Smaug made the 2nd most revenue in the genre making $958,400,000
 				-- Doctor Strange in the Multiverse of Madness made the 3rd most in the genre making $955,775,804
 				-- Spider-Man 3 made the 4th most in the genre making $894,983,373
@@ -535,7 +537,7 @@ FROM movies3
 WHERE genres LIKE 'Drama%'
 ORDER BY revenue DESC;
 				
-                -- Titanic made the most revenue in the Drama genre making $2,264,162,353
+                		-- Titanic made the most revenue in the Drama genre making $2,264,162,353
 				-- The Dark Knight made the 2nd most in the genre making $1,004,558,444
 				-- Oppenheimer made the 3rd most in the genre making $933,700,000
 				-- Hi, Mom made the 4th most in the genre making $822,049,668
@@ -546,7 +548,7 @@ FROM movies3
 WHERE genres LIKE 'Comedy%'
 ORDER BY revenue DESC;			
 				
-                -- Barbie made the most revenue in the comedy genre making $1,428,545,028
+                		-- Barbie made the most revenue in the comedy genre making $1,428,545,028
 				-- Shrek Forever After made the 2nd most revenue making $752,600,867
 				-- Forrest Gump made the 3rd most in the genre making $677,387,716
 				-- Mamma Mia! made the 4th most in the genre making $609,841,637
@@ -558,7 +560,7 @@ FROM movies3
 WHERE genres LIKE 'Romance%'
 ORDER BY revenue DESC;
 				
-                -- Cinderella made the most revenue in the romance genre making $543,514,353
+                		-- Cinderella made the most revenue in the romance genre making $543,514,353
 				-- Beauty and the Beast made the 2nd most in the genre making $424,967,620
 				-- There's Something About Mary made the 3rd most in the genre making $369,884,651
 				-- Notting Hill made the 4th most in the genre making $363,889,678
@@ -570,7 +572,7 @@ FROM movies3
 WHERE genres LIKE 'Animation%'
 ORDER BY revenue DESC;
 				
-                -- The Super Mario Bros. Movie made the most in the animation genre making $1,355,725,263
+                		-- The Super Mario Bros. Movie made the most in the animation genre making $1,355,725,263
 				-- Frozen made the 2nd most in the genre making $1,274,219,009
 				-- Toy Story 3 made the 3rd most in the genre making $1,066,969,703
 				-- Zootopia made the 4th most in the genre making $1,023,784,195
@@ -582,7 +584,7 @@ FROM movies3
 WHERE genres LIKE 'Family%'
 ORDER BY revenue DESC;
 				
-                -- Frozen II made the most revenue in the family genre making $1,450,026,933
+                		-- Frozen II made the most revenue in the family genre making $1,450,026,933
 				-- Beauty and the Beast made the 2nd most in the genre making $1,266,115,964
 				-- Minions made the 3rd most in the genre making $1,156,730,962
 				-- Toy Story 4 made the 4th most in the genre making $1,073,394,593
@@ -610,7 +612,7 @@ FROM movies3
 GROUP BY `Month`
 ORDER BY `Month` ASC;
 			
-            -- January had 1,187 movies released
+            		-- January had 1,187 movies released
 			-- February had 1,295 movies released
 			-- March had 1,534 movies released
 			-- April had 1,324 movies released
@@ -679,7 +681,7 @@ GROUP BY `Year`
 ORDER BY `Total Movies` DESC
 LIMIT 5;
 
--- The top 5 Years for movies released in this data are
+	-- The top 5 Years for movies released in this data are
 	-- 2018 with 835 movies released
 	-- 2017 with 820 movies released
 	-- 2019 with 771 movies released
@@ -695,7 +697,7 @@ ORDER BY `Total Revenue` DESC		-- 672,996,360,131
 LIMIT 5;			    
 
 					-- 2017 had the most revenue made with $31,417,632,932  
-				    -- 2016 was 2nd with $31,276,758,929 in total revenue 
+				    	-- 2016 was 2nd with $31,276,758,929 in total revenue 
 					-- 2018 was 3rd with $30,570,669,979 in total revenue
 					-- 2019 was 4th with $30,323,376,769 in total revenue 
 					-- 2015 was 5th with $29,571,459,995 in total revenue 
@@ -720,7 +722,7 @@ FROM movies3
 GROUP BY `Season`
 ORDER BY `Total Movies` DESC;
 				
-                -- Movies are more likely released in the Fall and Winter based on this data
+                		-- Movies are more likely released in the Fall and Winter based on this data
 				-- Fall had 5,534 movies released
 				-- Winter had 4,274 movies released
 				-- Spring had 4,205 movies released
