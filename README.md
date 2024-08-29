@@ -10,7 +10,7 @@ I have Projects showcasing my knowledge and skills with SQL, Excel, Power BI, Ta
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/SQL%20Walmart%20Sales%20Data%20Analysis%20Project.sql"> Walmart Sales in India Cleaning and Exploration</a></b></li>
   <li><b><a href= "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/World%20Layoffs%20Data%20Cleaning%20Project.sql"> Company layoffs Cleaning</a></b></li>
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/World%20Layoffs%20Data%20Exploration%20Project.sql"> Company layoffs Exploration</a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/TMDB%20movies%20Cleaning%20and%20Exploration%20%20Project.sql" > TMBD Movies Cleaning & Exploration </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/TMDB%20movies%20Cleaning%20and%20Exploration%20%20Project.sql" > TMDB Movies Cleaning & Exploration </a></b></li>
 </p>
 <h3>Excel</h3> 
 <p>
@@ -29,7 +29,7 @@ I have Projects showcasing my knowledge and skills with SQL, Excel, Power BI, Ta
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20Detroit%20Red%20Wings%20NHL%20Season%20Overview.pdf"> Detroit Red Wings Season Overview Dashboard </a></b></li>
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Power%20BI%20NHL%2023-24%20Season%20Overview%20Project.pdf" > NHL 23-24 Season Overview Dashboard </a></b></li>
   <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/Chattanooga%20Vehicle%20Incidents%20Visual.pdf" > Chattanooga Vehicle Incidents Dashboard </a></b></li>
-  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/TMDB%20Movies%20Visualization.pdf" > TMBD Movies Overview Dashboard </a></b></li>
+  <li><b><a href = "https://github.com/TroyWilliams0/Data-Analyst-Projects/blob/main/TMDB%20Movies%20Visualization.pdf" > TMDB Movies Overview Dashboard </a></b></li>
 </p>
 <h3>Python</h3>
 <p>
